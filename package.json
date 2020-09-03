@@ -4,11 +4,11 @@
   "description": "node js app",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "ejs": "^3.1.5"
   },
   "devDependencies": {
-    "ejs": "^3.1.5",
-    "nodemon": "^2.0.4"
+    "ejs": "^3.1.5"
   },
   "scripts": {
     "start": "nodemon",
