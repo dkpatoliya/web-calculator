@@ -31,7 +31,7 @@ app.get('/ans/',function(req,res) {
     
 });
 
-const port = 3000
+const port = process.env.port || 3000
 app.listen(port,(req,res) => {
     console.log(`App listening at http://localhost:${port}`);
 });
